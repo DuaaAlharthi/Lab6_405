@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unsplash Image Search</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Your HTML from JSFiddle -->
+  <h2>Search Unsplash Images</h2>
+  <input type="text" id="searchInput" placeholder="Enter keyword..." />
+  <button onclick="searchXHR()">Search with XHR</button>
+  <button onclick="searchFetch()">Search with Fetch</button>
+  <button onclick="searchAsync()">Search with Async/Await</button>
+  <div id="images"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
